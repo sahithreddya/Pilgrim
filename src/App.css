@@ -1,38 +1,170 @@
 .App {
   text-align: center;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: 40px;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  align-items: start;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.body {
+  margin: 20vmax 10vmin 10vmin 10vmin;
+  max-width: 900px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.parentTitle{
+  text-align: start;
+  font-size: calc(10px + 2vmin);
+  letter-spacing: 4px;
+  margin-bottom: 2vmax;
+}
+
+.parentContainer {
+  border: 2px solid black;
+}
+
+.artContainer {
+  border: 1px solid #D2D2D2;
+  padding: 20px;
+  margin: 1.5vmax 3vmax 3vmax 3vmax;
+  display: grid;
+  grid-template-areas: 
+    'image title' 
+    'image content';
+}
+
+.artImage {
+  grid-area: image;
+  max-width: 200px;
+  min-height: 200px;
+  aspect-ratio: 1;
+  display: block;
+  margin: auto 1em auto 0;
+  object-fit: cover;
+}
+
+.artTitle{
+  font-size: calc(5px + 2vmin);
+  margin: 0;
+  grid-area: title;
+}
+
+.artContent {
+  font-size: calc(7px + 1vmin);
+  grid-area: content;
+}
+
+/* Tags */
+
+.tagContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 3vmax 1em 3vmax;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tagItemEnabled{
+  padding: 5px 20px 5px 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: white;
+  background-color: black;
+  font-size: calc(7px + 1vmin);
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.tagItemDisabled{
+  padding: 5px 20px 5px 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  color: black;
+  background-color: white;
+  font-size: calc(7px + 1vmin);
+  margin-right: 1em;
+  cursor: pointer;
+}
+
+.noTagsText {
+  color: #D2D2D2;
+}
+
+/* Fonts */
+.font-face-cabinSB {
+  font-family: CabinSemiBold;
+}
+@font-face {
+  font-family: "CabinSemiBold";
+  src: local("CabinSemiBold"),
+   url("./fonts/Cabin/Cabin-SemiBold.otf") format("truetype");
+  font-weight: bold;
   }
-  to {
-    transform: rotate(360deg);
+
+.font-face-ralewaySB {
+  font-family: RalewaySemiBold;
+}
+@font-face {
+  font-family: "RalewaySemiBold";
+  src: local("RalewaySemiBold"),
+  url("./fonts/Raleway/Raleway-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+.font-face-raleway {
+  font-family: Raleway;
+}
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+  url("./fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  
+  .body {
+    /* max-width: ; */
+    margin: 5vmax 5vmin 5vmin 5vmin;
+  }
+
+  .artContainer {
+    margin: 1vmax;
+    grid-template-areas: 
+      'title' 
+      'image'
+      'content';
+  }
+
+  .artImage {
+    max-height: 150px;
+    min-height: 0;
+    display: block;
+    margin: 15px auto;
+    /* min-width: 200px; */
+  }
+
+  .artTitle{
+    font-size: calc(5px + 2vmin);
+  }
+
+  .tagItemEnabled, .tagItemDisabled{
+    margin-bottom: 1em;
   }
 }
