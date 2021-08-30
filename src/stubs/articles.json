@@ -2,21 +2,75 @@
     "articles": [
         {
             "title": "Humanity is stuck in short-term thinking. Here’s how we escape.",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "url": "https://www.technologyreview.com/2020/10/21/1009443/short-term-vs-long-term-thinking/",
             "img": "https://wp.technologyreview.com/wp-content/uploads/2020/10/ND20_intro_longterm27-web.jpg?fit=1032,688",
-            "tags": ["Philosophy", "Self-Help"]
+            "tags": ["Philosophy", "Self-Help"],
+            "date": "8/30/2021"
         },
         {
             "title": "The Best Time-Management Advice Is Depressing But Liberating",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "url": "https://www.theatlantic.com/family/archive/2021/08/oliver-burkeman-advice-time-productivity/619723/",
             "img": "https://cdn.theatlantic.com/thumbor/V-RK_2k0howi2ancssS_n8Xq-Rw=/0x0:2500x1406/1952x1098/media/img/mt/2021/08/GettyImages_3362243/original.jpg",
-            "tags": ["Self-Help", "Politics"]
+            "tags": ["Self-Help", "Politics"],
+            "date": "8/30/2021"
         },
         {
             "title": "The case of the Kyoto canal, or, building cities that can last a thousand years",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "url": "https://wrathofgnon.substack.com/p/sustainable-infrastructure",
             "img": "https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5525b894-b6aa-46b5-889c-085b919c3f7d_2137x2016.jpeg",
-            "tags": ["Climate", "Tech"]
+            "tags": ["Climate", "Tech"],
+            "date": "8/30/2021"
+        },
+        {
+            "title": "The Best Time-Management Advice Is Depressing But Liberating",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "url": "https://www.theatlantic.com/family/archive/2021/08/oliver-burkeman-advice-time-productivity/619723/",
+            "img": "https://cdn.theatlantic.com/thumbor/V-RK_2k0howi2ancssS_n8Xq-Rw=/0x0:2500x1406/1952x1098/media/img/mt/2021/08/GettyImages_3362243/original.jpg",
+            "tags": ["Self-Help", "Politics"],
+            "date": "8/22/2021"
+        },
+        {
+            "title": "Humanity is stuck in short-term thinking. Here’s how we escape.",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "url": "https://www.technologyreview.com/2020/10/21/1009443/short-term-vs-long-term-thinking/",
+            "img": "https://wp.technologyreview.com/wp-content/uploads/2020/10/ND20_intro_longterm27-web.jpg?fit=1032,688",
+            "tags": ["Philosophy", "Self-Help"],
+            "date": "8/22/2021"
+        },
+        {
+            "title": "The case of the Kyoto canal, or, building cities that can last a thousand years",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "url": "https://wrathofgnon.substack.com/p/sustainable-infrastructure",
+            "img": "https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5525b894-b6aa-46b5-889c-085b919c3f7d_2137x2016.jpeg",
+            "tags": ["Climate", "Tech"],
+            "date": "8/22/2021"
+        },
+        {
+            "title": "The case of the Kyoto canal, or, building cities that can last a thousand years",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "url": "https://wrathofgnon.substack.com/p/sustainable-infrastructure",
+            "img": "https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F5525b894-b6aa-46b5-889c-085b919c3f7d_2137x2016.jpeg",
+            "tags": ["Climate", "Tech"],
+            "date": "8/15/2021"
+        },
+        {
+            "title": "The Best Time-Management Advice Is Depressing But Liberating",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "url": "https://www.theatlantic.com/family/archive/2021/08/oliver-burkeman-advice-time-productivity/619723/",
+            "img": "https://cdn.theatlantic.com/thumbor/V-RK_2k0howi2ancssS_n8Xq-Rw=/0x0:2500x1406/1952x1098/media/img/mt/2021/08/GettyImages_3362243/original.jpg",
+            "tags": ["Self-Help", "Politics"],
+            "date": "8/15/2021"
+        },
+        {
+            "title": "Humanity is stuck in short-term thinking. Here’s how we escape.",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "url": "https://www.technologyreview.com/2020/10/21/1009443/short-term-vs-long-term-thinking/",
+            "img": "https://wp.technologyreview.com/wp-content/uploads/2020/10/ND20_intro_longterm27-web.jpg?fit=1032,688",
+            "tags": ["Philosophy", "Self-Help"],
+            "date": "8/15/2021"
         }
     ]
 }
