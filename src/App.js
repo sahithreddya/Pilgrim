@@ -5,6 +5,7 @@ import logo from './assets/Pilgrim-header.png';
 import './fonts/Cabin/Cabin-SemiBold.otf';
 import './fonts/Raleway/Raleway-SemiBold.ttf';
 import './fonts/Raleway/Raleway-Regular.ttf';
+import './fonts/Raleway/Raleway-Medium.ttf';
 import articles from './stubs/articles.json'
 import MainBlock from './components/MainBlock';
 
